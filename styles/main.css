@@ -4,18 +4,22 @@
 }
 
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 body {
   background-color: #fff;
-  color: #006400;
+  color: #007006;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  font-weight: 400;
   text-align: center;
 }
 
 h1 {
-  color: #8b0000;
-  font-size: 2rem;
+  color: #80000b;
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
 }
 
 p {
@@ -23,7 +27,7 @@ p {
 }
 
 a {
-  color: #8b0000;
+  color: #663399;
   text-decoration: none;
 }
 
@@ -36,35 +40,44 @@ ul {
 }
 
 li {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
+li:last-child {
+  padding-bottom: 1rem;
+}
 header {
   margin-top: 2rem;
 }
 
 footer {
-  background-color: #ff1493;
-  color: #fff;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1rem;
 }
 
-.main {
-  margin-top: 1rem;
+.text-left {
+  text-align: left;
 }
 
-.present-box {
+.text-right {
+  text-align: right;
+}
+
+.unwrap {
   color: #fff;
 }
 
-.present-box:hover {
+.unwrap:hover {
   cursor: pointer;
+}
+
+.present-box {
+  margin-top: 2rem;
 }
 
 .present {
   background-color: #fff;
-  color: #ff1493;
+  color: #ff69b4;
 }
 
 .present:hover {
@@ -73,10 +86,14 @@ footer {
 
 .wrapping-paper {
   background-color: #663399;
-  height: 4rem;
+  height: 6rem;
 }
 
 .ribbon {
-  background-color: #ff1493;
-  height: 4rem;
+  align-items: center;
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: center;
+  min-height: 3rem;
+  min-width: 3rem;
 }
