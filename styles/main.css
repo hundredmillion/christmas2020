@@ -11,7 +11,7 @@ body {
   background-color: #fff;
   color: #006105;
   font-family: "Amatic SC", cursive;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
 }
@@ -22,37 +22,26 @@ h1 {
   font-size: 3rem;
 }
 
-p {
-  margin-top: 1rem;
-}
-
 a {
   color: #663399;
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: underline;
 }
 
-ul {
-  list-style: none;
+a:hover {
+  text-decoration: none;
 }
 
-li {
-  padding-top: 1rem;
+p {
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 
-li:last-child {
-  padding-bottom: 1rem;
-}
 header {
   margin-top: 2rem;
 }
 
 footer {
-  margin-top: 2rem;
-  padding: 1rem;
+  margin-top: 3rem;
 }
 
 .text-left {
@@ -78,6 +67,7 @@ footer {
 .present {
   background-color: #fff;
   color: #ff69b4;
+  margin: 2rem;
 }
 
 .present:hover {
@@ -93,6 +83,7 @@ footer {
   align-items: center;
   background-color: #ff69b4;
   display: flex;
+  font-size: 2rem;
   justify-content: center;
   min-height: 3rem;
   min-width: 3rem;
